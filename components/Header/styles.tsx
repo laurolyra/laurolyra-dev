@@ -9,6 +9,7 @@ export const HeaderWrapper = styled.header`
     flex-direction: column;
     justify-content: space-between;
     width: 80vw;
+    padding-bottom: 1rem;
   }
   @media ${device.tablet} {
     flex-direction: row-reverse;
@@ -35,7 +36,11 @@ export const Title = styled.div`
     }
   }
   @media ${device.tablet} {
+    text-align: left;
     margin-top: 0;
+    h1 {
+      font-size: 40px;
+    }
   }
 `
 export const LinksContainer = styled.nav`
@@ -48,6 +53,8 @@ export const LinksContainer = styled.nav`
   }
   @media ${device.tablet} {
     flex-direction: column;
+    min-height: 10vh;
+    justify-content: space-between;
     p {
       margin-bottom: 0.2rem;
     }
