@@ -6,8 +6,8 @@ export const HeaderWrapper = styled.header`
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
-  margin:auto;
+  justify-content: space-around;
+  margin: 0 2rem;
   padding: 0 2rem 0.4rem 2rem;
   h2 {
     margin: 0;
@@ -24,8 +24,8 @@ export const HeaderWrapper = styled.header`
 
 export const ImageContainer = styled.div`
   position: relative;
-  width: 16vw;
-  height: 16vw;
+  width: 8vw;
+  height: 8vw;
 `;
 export const TitleLinksWrapper = styled.div`
   display: flex;

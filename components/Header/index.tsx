@@ -1,9 +1,9 @@
-import React, { PropsWithChildren } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import * as S from './styles';
 
-export const Header: React.FC<PropsWithChildren<React.ReactNode>> = ({ children }) => (
+export const Header = () => (
   <>
     <S.HeaderWrapper>
       <S.ImageContainer>
@@ -22,6 +22,5 @@ export const Header: React.FC<PropsWithChildren<React.ReactNode>> = ({ children 
         </S.LinksContainer>
       </S.TitleLinksWrapper>
     </S.HeaderWrapper>
-    {children}
   </>
 );
